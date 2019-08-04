@@ -1,0 +1,46 @@
+<div id="wrapper" class="toggled">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <div class="ubx-site">
+            <img src="../assets/ubx.PNG">
+        </div>
+        <div class="marketplace-heading">
+            <p>Energy<br />Marketplace</p>
+        </div>
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a [routerLink]="['/Dashboard']">Dashboard</a>
+            </li>
+            <li>
+                <a [routerLink]="['/Prosumer']">Distributer/Prosumer</a>
+            </li>
+            <li>
+                <a [routerLink]="['/Consumer']">Consumer</a>
+            </li>
+            <li>
+                <a [routerLink]="['/Transaction']">Transaction</a>
+            </li>
+            <li>
+                <a [routerLink]="['/About']">About</a>
+            </li>
+            <li>
+                <br>
+            </li>
+        </ul>
+        <div class="multiledger-branding">
+            <img src="../assets/multi.PNG">
+        </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+        <h3>UBX ENERGY MARKETPLACE</h3>
+        <hr>
+        <router-outlet></router-outlet>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
