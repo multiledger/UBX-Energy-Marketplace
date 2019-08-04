@@ -1,7 +1,7 @@
 ﻿# UBX ENERGY MARKETPLACE
 
 <div style='border: 2px solid #f00;'>
-  <img width="600" src="images/app_intro.png">
+  <img width="600" src="images/app_intro.PNG">
 </div>
 </br>
 
